@@ -1,0 +1,121 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+.userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.userTitleContainer button {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+.userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.userShow {
+  flex: 1;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+.userUpdate {
+  flex: 2;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin-left: 20px;
+}
+.userShowTop {
+  display: flex;
+  align-items: center;
+}
+.userShowTop img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.userShowBottom h3 {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.userShowBottom h3 {
+  color: rgb(171, 171, 171);
+}
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+.userShowIcon {
+  font-size: 16px !important;
+}
+.userShowInfo span {
+  margin-left: 10px;
+}
+.userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.userUpdate h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.userUpdateLeftItmes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.userUpdateLeftItmes label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.userUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid grey;
+  outline: none;
+}
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.userUpdateIcon {
+  cursor: pointer;
+}
+.userUpdateButton {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: #fff;
+  font-weight: bold;
+}

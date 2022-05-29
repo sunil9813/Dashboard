@@ -1,0 +1,49 @@
+.WidgetL {
+  flex: 2;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+.WidgetL h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.WidgetL img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.button {
+  padding: 5px 7px;
+  border: none;
+  border-radius: 5px;
+}
+.button.Approved {
+  background-color: #e5faf2;
+  color: #3bb077;
+}
+.button.Declined {
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.button.Pending {
+  background-color: #ebf1fe;
+  color: #2a7ade;
+}
+table {
+  width: 100%;
+  border-spacing: 20px;
+}
+table th {
+  text-align-last: left;
+}
+table .user {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.date,
+.amount {
+  font-weight: 300;
+}
